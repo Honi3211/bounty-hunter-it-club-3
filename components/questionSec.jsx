@@ -8,7 +8,7 @@ const QuestionSec = ({ question, setAnswer, func }) => {
       <div className="w-full h-[40px] flex items-center">
         <input
           type="text"
-          className="border-2 border-black w-full h-full rounded-l-md px-[10px]"
+          className="border-2 border-black w-full h-full rounded-l-md px-[10px] lowercase"
           placeholder="Хариулт"
           onChange={(e) => {
             setAnswer(e.target.value);

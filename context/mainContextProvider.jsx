@@ -17,6 +17,7 @@ export const MainContextProvider = ({ children }) => {
   const level3Third = Questions[0].level3.thirdTeam;
 
   const CheckAnswer = (answer, correctAnswer) => {
+    
     if (answer == correctAnswer) {
       alert("Зөв хариуллаа, баяр хүргэе!");
       setIsCorrect(true);
